@@ -40,7 +40,7 @@
 		1439137B6777D79F13018DA2 /* Pods-CDUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDUtils_Tests/Pods-CDUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		18FF2812F068A687CC09CD3A /* Pods-CDUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDUtils_Tests/Pods-CDUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		22C32480E8F1B591204E0AF6 /* Pods_CDUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31FBB0AEA0760E694E81D2B1 /* CDUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CDUtils.podspec; path = ../CDUtils.podspec; sourceTree = "<group>"; };
+		31FBB0AEA0760E694E81D2B1 /* CDUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CDUtils.podspec; path = ../CDUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* CDUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6B44563D2BF5E560F3C1878A /* Pods-CDUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDUtils_Example/Pods-CDUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8553EB709F6AE4B53CE6EF4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8553EB709F6AE4B53CE6EF4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3E1CC7DCECC899C7E24102E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C3E1CC7DCECC899C7E24102E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FD1148AA137E752CB5BA1194 /* Pods-CDUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDUtils_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDUtils_Example/Pods-CDUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FD42967A91DFAA58379DD1AE /* Pods_CDUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1516715172@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6F8YPTA92C;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -260,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -557,6 +561,7 @@
 			baseConfigurationReference = 6B44563D2BF5E560F3C1878A /* Pods-CDUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6F8YPTA92C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CDUtils/CDUtils-Prefix.pch";
 				INFOPLIST_FILE = "CDUtils/CDUtils-Info.plist";
@@ -573,6 +578,7 @@
 			baseConfigurationReference = FD1148AA137E752CB5BA1194 /* Pods-CDUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6F8YPTA92C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CDUtils/CDUtils-Prefix.pch";
 				INFOPLIST_FILE = "CDUtils/CDUtils-Info.plist";

@@ -1,0 +1,16 @@
+PODS:
+  - CDUtils (0.1.0)
+
+DEPENDENCIES:
+  - CDUtils (from `../`)
+
+EXTERNAL SOURCES:
+  CDUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CDUtils: 34cf623b0fedc4f74eafe66ffe74a8a88ea82964
+
+PODFILE CHECKSUM: fa1f1873f7853f7c477ae4ed2c790d102eca5816
+
+COCOAPODS: 1.4.0

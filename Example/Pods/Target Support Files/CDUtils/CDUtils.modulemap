@@ -1,0 +1,6 @@
+framework module CDUtils {
+  umbrella header "CDUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

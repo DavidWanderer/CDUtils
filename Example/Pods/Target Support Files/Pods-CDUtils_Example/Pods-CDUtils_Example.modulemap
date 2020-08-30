@@ -1,0 +1,6 @@
+framework module Pods_CDUtils_Example {
+  umbrella header "Pods-CDUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
